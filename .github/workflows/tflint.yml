@@ -1,4 +1,6 @@
 name: Lint
+on:
+  pull_request:
 jobs:
   tflint:
     runs-on: ${{ matrix.os }}
